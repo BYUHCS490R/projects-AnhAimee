@@ -1,0 +1,31 @@
+body {
+    background-color: #3a606e;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    font-family: cursive;
+    background-color: rgb(127, 152, 152);
+    color: #2b3453;
+    padding: 5px;
+    font-weight: bold;     
+}
+h2 {
+    color: #e8e9ed;
+}
+dt {
+    color: #5c9ea3;
+    font-weight: bold;
+}
+#hiking {
+    color: #a7c00b;
+}
+#color {
+    color: #a7c00b
+}
+.hawaii {
+    color: #648879;
+}
+.highlight {
+    color: #02b8f0;
+}
