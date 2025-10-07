@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('blue.jpg') repeat rgb(29,29,148);
+    color: white ;
+}
+  
+header {
+    background-image: url(wave.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.mylist {
+    /*list-style-type: none; */
+    list-style-image: url(dot.png);
+}
+
+.other {
+    background-image: url('blue.jpg');
+    background-repeat: repeat;
+    background-color: blue;
+    color: white;
+}
