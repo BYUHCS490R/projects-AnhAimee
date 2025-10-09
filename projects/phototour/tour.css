@@ -1,0 +1,25 @@
+nav a {
+    color: rgb(4, 111, 19)
+}
+
+.current {
+    color: black;
+}
+
+body{
+    background-color: #F5EFE6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(b.jpg);
+  
+    
+}
+.mylist {
+    list-style-image: url(bullet.jpg);
+}
+.right-corner-img {
+    float: right;
+    margin: 10px;
+    max-width: 300px;
+}
+
+
