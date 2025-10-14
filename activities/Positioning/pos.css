@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a{
+    display: inline-block;
+    padding: 10px;
+    background-color: aqua;
+    border-bottom: thin solid white;
+    text-decoration: none;
+}
+
+nav a :hover{
+    text-decoration: underline;
+}
+.flower {
+    border:thin solid black;
+    width: 300px;
+}
+
+.hammer {
+    position: relative;
+    left: 20px;
+}
+
+.floater {
+    float: right;
+}
+.flower img {
+    width: 100%
+}
+
+.clear{
+    clear: both;
+}
