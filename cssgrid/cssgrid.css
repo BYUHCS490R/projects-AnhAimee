@@ -1,0 +1,41 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.child {
+    background-color: bisque;
+    text-align: center;
+    border-radius: 5%;
+    border: thin solid ;
+}
+.p {
+    background-color: rgb(155, 213, 198);
+    border-radius: 5%;
+    border: thin solid;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-areas:
+        "top top top"
+        "lside middle rside"
+        "bottom bottom bottom";
+}
+header {
+    grid-area: top;
+
+}
+nav {
+    grid-area: lside;
+}
+main {
+    grid-area: middle;
+}
+footer {
+    grid-area: bottom;
+}
