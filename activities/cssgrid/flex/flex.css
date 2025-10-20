@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    border: thin solid black;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 5px 5px 3px grey;
+    width: 250px;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    justify-content: space-evenly;
+    
+}
