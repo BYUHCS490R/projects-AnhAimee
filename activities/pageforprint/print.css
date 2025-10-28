@@ -19,8 +19,7 @@ nav a {
     margin: 0;
 }
 nav a:hover {
-    color: brown
-    background-color :blanchedalmond;
+    color: rgb(21, 144, 29);
 }
 NAV {
     display: none;
