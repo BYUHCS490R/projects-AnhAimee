@@ -8,6 +8,20 @@ body {
     box-shadow: 5px 5px 3px grey;
     width: 250px;
 }
+nav a{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(6, 71, 49);
+    color: azure;
+    text-decoration: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+nav a:hover{
+    background-color: rgb(240, 244, 242);
+    color: rgb(10, 97, 97);
+    text-decoration: underline;
+}
 .row {
     display: flex;
     flex-flow: row wrap;
@@ -15,4 +29,7 @@ body {
     flex-wrap: wrap;*/
     justify-content: space-evenly;
     
+}
+.mainthing{
+    order: -1;
 }
