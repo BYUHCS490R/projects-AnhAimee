@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="tablecss.css">
+</head>
+<body>
+        <header>
+            <h1>Anh Website</h1>
+        </header>
+        <main>
+            <h1>Tables</h1>
+            <table class="schedule">
+                <caption>My Class schedule</caption>
+                <thead>
+                    <tr class="title">
+                        <th>Department</th>
+                        <th>Number</th>
+                        <th>Subject</th>
+                        <th>Time</th>
+                        <th>Location</th>
+                        <th>Credits</th>
+                    </tr>
+                    <tr>
+                        <td colspan="6">Fall 2025</td>
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cs</td>
+                            <td>140</td>
+                            <td>Web Design</td>
+                            <td>10 AM MWF</td>
+                            <td>P3</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Math</td>
+                            <td rowspan="3">101</td>
+                            <td>Quantitive Reasoning</td>
+                            <td>11 AM MWF</td>
+                            <td>P6</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Language</td>
+                            
+                            <td>Spanish</td>
+                            <td>5 PM MWF</td>
+                            <td>P3</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Psych</td>
+                            
+                            <td>Mental Health</td>
+                            <td>4 PM MWF</td>
+                            <td>P12</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="5" id="totalcredit">Total credits</th>
+                            <td headers="totalcredit">15</td>
+                        </tr>
+                    </tfoot>
+            </table> 
+            <p>We do not use the border attribute because it is outdated, we use css instead</p>  
+            <p>we can use the css: nth-child() selector</p>   
+        </main>
+        <footer>
+            <p>&copy;2025 Dang Ngoc Anh Do All Rights Reserved</p>
+        </footer>
+</body>
+</html>
