@@ -1,0 +1,30 @@
+body {
+    font-family: cursive;
+}
+.schedule {
+    caption-side: bottom;
+    border-spacing: 0;
+    border: thin solid black;
+    margin: auto;
+    text-align: center;
+}
+.schedule td, .schedule th {
+    border: thin solid black;
+    padding: 5px;
+}
+.title {
+    background-color: rgb(22, 118, 92);
+    color: white;
+}
+
+.schedule tbody tr:nth-child(even) {
+    background-color: rgb(183, 182, 182);
+}
+
+.schedule tfoot tr {
+    background-color: rgb(126, 163, 155);
+    color: white;
+}
+.num {
+    vertical-align: top;
+}
