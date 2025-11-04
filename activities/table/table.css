@@ -1,0 +1,25 @@
+body {
+    font-family: cursive;
+}
+.schedule {
+    border: 1px solid black;
+    border-spacing: 10px; /*push cell aways from each other*/ 
+    border-collapse: collapse; /*overlap border*/
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; /*adjust the table in the middle*/
+    caption-side: bottom;
+
+}
+
+.schedule th, .schedule td {
+    border: 5px solid black;
+    padding: 5px;
+    /*height: 40px;*/ 
+}
+
+.num {
+    vertical-align: top;
+}
+
