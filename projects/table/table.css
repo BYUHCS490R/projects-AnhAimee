@@ -1,0 +1,71 @@
+body {
+    font-family: cursive;
+    background-color: rgb(75, 77, 82);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 0;
+    border-radius: 6px;
+    background-color: rgb(94, 49, 74);
+}
+nav a:hover {
+    color: rgb(126, 122, 228);
+}
+#wrapper {
+    height: fit-content;
+    width: 800px;
+    background-color: rgb(182, 190, 231);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1cm;
+    border: medium solid black;
+    border-radius: 1cm;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 700px;
+}
+main {
+    width: 400px;
+    margin-top: 30px;
+}
+aside {
+    width: 300px;
+    padding: 15px;
+    margin-left: auto;
+}
+aside h2 {
+    margin-top: 0;
+}
+caption {
+    caption-side: bottom;
+    font-weight: bold; 
+}
+thead {
+    background-color: rgb(94, 49, 74);
+    color: white;
+}
+.tablesong {
+    border-spacing: 0;
+    border: thin solid black;
+    margin-left: auto;
+}
+.tablesong td, .tablesong th {
+    border: thin solid black;
+    padding: 5px;
+}
+.tablesong tbody tr:nth-child(even) {
+    background-color: rgb(200, 111, 191);
+}
+.tablesong tbody tr:nth-child(odd) {
+    background-color: rgb(204, 165, 210);
+}
