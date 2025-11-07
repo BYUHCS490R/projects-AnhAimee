@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Anh Web Site</h1>
+    </header>
+    <main>
+        <h1>Forms</h1>
+        <form action="formprocess.html" method="get">
+            <div>
+                <label for="Full-name">Full Name</label>
+                <input type="text" name="fname" id="Full-name" placeholder="Full Name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" value="your@gmail.com">
+            </div>
+            <div>
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass">
+            </div>
+            <div>
+                <label for="state">State</label>
+                <select name="state" id="state">
+                    <option value="blank">---</option>
+                    <option value="CS">California</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="UT">Utah</option>
+                </select>
+            </div>
+            <div>
+                <label><input type="checkbox" name="agree">I agree to the term</label>
+            </div>
+            <div>
+                gender:
+                <label><input type="radio" name="gender" value="male">male</label>
+                <label><input type="radio" name="gender" value="female">female</label>
+            </div>
+            <div>
+                <label for="comments">comments</label>
+                <textarea name="comments" id="comments"></textarea>
+            </div>
+            <input type="submit" value="sign up">
+        </form>
+        <p>The action attribute of form tag, this specifies the form data should be sent when the form is submitted</p>
+        <p>the method attribute specifies how the form data should be sent</p>
+        <p>Difference between get and post: post is more secure than get because it is not visible in the URL, while using get shows in the URL. Post when we change something include add, update, or delete. Get when we read or search something.  </p>
+    </main>
+    <footer>
+         <p>&copy;2025 Dang Ngoc Anh Do All Rights Reserved</p>
+    </footer>
+</body>
+</html>
