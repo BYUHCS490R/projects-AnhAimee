@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <header>
+        <h1> Register Form</h1>
+    </header>
+    <main>
+        <form action="formprocess.html" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="row">
+                    <label for="Full-name">Full Name</label>
+                    <input type="text" name="full-name" id="full-name" placeholder="Full Name" required>
+                </div>
+                <div class="row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="your@gmail.com" required>
+                </div>
+                <div class="row">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass" required>
+                </div>
+                <div class="row">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="--- --- ---">
+                </div>
+                <div class="row">
+                    <label for="DOB">Date Of Birth</label>
+                    <input type="date" name="DOB" id="DOB">
+                </div>
+                <div class="row">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="blank">---</option>
+                        <option value="CS">California</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="UT">Utah</option>
+                        <option value="NY">New York</option>
+                        <option value="WA">Washington</option>
+                    </select>
+                <div class="row">
+                    <label>School Year</label>
+                        <div class="group">
+                            <label><input type="radio" name="year" value="Freshman"> Freshman</label>
+                            <label><input type="radio" name="year" value="Sophomore"> Sophomore</label>
+                            <label><input type="radio" name="year" value="Junior"> Junior</label>
+                            <label><input type="radio" name="year" value="Senior"> Senior</label>
+                        </div>
+                </div>
+                </div>
+                <div>
+                    <label><input type="checkbox" name="agree">I agree to the term</label>
+                </div>
+                <div>
+                    <label for="comments">comments</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Leave a comments"></textarea>
+                </div>
+                <div class="row">
+                    <input type="submit" value="sign-up">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+         <p>&copy;2025 Dang Ngoc Anh Do All Rights Reserved</p>
+    </footer>
+</body>
+</html>
