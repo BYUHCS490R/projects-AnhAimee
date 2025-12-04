@@ -1,6 +1,6 @@
 document.getElementById('myForm').addEventListener('submit', function(event) {
         event.preventDefault();
-        alert("form Submitted");
+        // alert("form Submitted");
 
         const fullname=document.getElementById('fullname').value;
         const email=document.getElementById('email').value;
@@ -24,7 +24,6 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
             age: age,
             password: pass
         };
-        console.log(formData);
         console.log(formData);
         const xhr = new XMLHttpRequest();
         xhr.open("GET", "Form Processing.json", true);
