@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Utah's stunning landscapes, outdoor adventures, and travel tips for your next trip.">
+    <title>Utah</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<header>
+    <h1>Utah Destination</h1>
+</header>
+
+<nav>
+    <div class="statement">My Travel</div>
+    <ul class="nav">
+        <li><a href="main.html">Home</a></li>
+        <li><a href="ca.html">Cambodia</a></li>
+        <li><a href="h.html">Hawaii</a></li>
+        <li><a href="p.html">Philippines</a></li>
+        <li><a href="s.html">Singapore</a></li>
+        <li><a href="u.html" class="active">Utah</a></li>
+    </ul>
+</nav>
+
+<main>
+    <div class="container">
+        <section>
+            <h2>Utah</h2>
+            <p>Utah is known for its stunning national parks, red rock formations, mountains, and outdoor adventures. From hiking in Zion to skiing in Salt Lake City, Utah offers some of the most beautiful natural landscapes in the United States.</p>
+            <p>Activities like hiking, skiing, and camping attract thousands of visitors each year.</p>
+        </section>
+        <section>
+            <h3>References</h3>
+            <ul>
+                <li><a href="https://www.utah.com/things-to-do/">Activities</a></li>
+                <li><a href="https://www.utah.com/destinations/regions/red-rock/">Red Rock</a></li>
+                <li><a href="https://www.utahsadventurefamily.com/best-restaurants-utah/">Food</a></li>
+                <li><a href="https://www.snowbasin.com/">Snow in Utah</a></li>
+                <li><a href="https://www.visitutah.com/places-to-go">Places to go</a></li>
+            </ul>
+            <img src="utah.jpg" alt="Utah">
+            <p>Image source: <a href="https://www.visitutah.com/places-to-go">here</a></p>
+        </section>
+
+        <section>
+            <h2>Contact / Travel Form</h2>
+            <form id="travelForm" method="POST" action="/submit">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="destination">Destination Interested In:</label>
+                <select id="destination" name="destination" required>
+                    <option value="">--Select--</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Philippines">Philippines</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Utah">Utah</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <p>&copy;2025 Dang Ngoc Anh Do copy right reserved</p>
+</footer>
+
+</body>
+</html>
