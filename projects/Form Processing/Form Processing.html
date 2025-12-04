@@ -12,7 +12,7 @@
     </header>
     <main>
         <div id="message"></div>
-        <form action="success.json" method="get" id="myForm">
+            <form action="success.json" method="get" id="myForm">
             <fieldset>
                 <legend>Personal Information</legend>
                 <div class="row">
@@ -49,7 +49,7 @@
                         <option value="NY">New York</option>
                         <option value="WA">Washington</option>
                     </select>
-                <div class="row">
+                    <div class="row">
                     <label>School Year</label>
                         <div class="group">
                             <label><input type="radio" name="year" value="Freshman"> Freshman</label>
@@ -57,7 +57,7 @@
                             <label><input type="radio" name="year" value="Junior"> Junior</label>
                             <label><input type="radio" name="year" value="Senior"> Senior</label>
                         </div>
-                </div>
+                    </div>
                 </div>
                 <div>
                     <label><input type="checkbox" name="agree">I agree to the term</label>
@@ -67,7 +67,7 @@
                     <textarea id="comments" name="comments" rows="4" placeholder="Leave a comments"></textarea>
                 </div>
                 <div class="row">
-                    <input type="submit" value="sign-up">
+                    <input type="submit" value="sign-up" id="submit">
                 </div>
             </fieldset>
         </form>
